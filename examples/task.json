@@ -1,0 +1,8 @@
+{
+  "grids": {
+    "a": {"x": 0, "y": 0, "cell": 2, "data": [[1, null], [3, 40]]},
+    "b": {"x": 2, "y": -2, "cell": 2, "data": [[10], [20]]}
+  },
+  "expression": "coalesce(a / b, a, -1)",
+  "extent": "union"
+}
